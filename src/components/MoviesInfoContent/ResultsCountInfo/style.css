@@ -1,0 +1,29 @@
+.results_count_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.results_count_wrapper p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0;
+}
+
+.results_count_wrapper p.search_text {
+    text-decoration: underline;
+}
+
+.results_count_info {
+    background: #6627FF;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #FCFCFF;
+    margin-left: 5px;
+}
