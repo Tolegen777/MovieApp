@@ -34,7 +34,11 @@ export const Search = memo(({setSearchTerm}: Props) => {
 
     return (
         <div className={'search_container'}>
-            <input type="text" value={inputValue} onChange={(e) => handleInputChange(e)}/>
+            <input
+                type="text"
+                value={inputValue}
+                onChange={(e) => handleInputChange(e)}
+                placeholder={'Введите текст'}/>
             <img src={searchIcon} alt="Search icon"/>
         </div>
 

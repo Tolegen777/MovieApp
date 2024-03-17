@@ -19,6 +19,7 @@
     line-height: 20px;
     letter-spacing: 0;
     color: #929BBC;
+    width: 250px;
 }
 
 .search_container input:valid {
